@@ -7,7 +7,7 @@ This project implements a scheduling system that allows a user to add trainees, 
 Step 1: Create an empty database, the name choice is up to you.
 
 Step 2: Once the project is cloned (this project was created and ran within Intellij), in the application.properties file, type the name of your database in, for example.
-'spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:3306/<<database name here>>' 
+'spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:3306/<<databaseNameHere>>' 
   OR
 'spring.datasource.url=<<add database path here>>' 
   
